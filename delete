@@ -1,0 +1,16 @@
+#!/bin/bash
+
+gio trash $1
+
+gio list trash://
+
+echo "If you need to restore the file."
+echo "Please enter 1 for yes, 0 for no."
+
+read response
+
+if [[ $answer = "1" ]]; then
+    echo "$1 has not been deleted"
+  else
+    echo "$1 has been deleted"
+fi
