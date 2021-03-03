@@ -10,7 +10,7 @@ fi
 
   dir="$1"
 
-
+wwwwwwwwwwwwwwwweeeeeeeeeeeee
 if ! [[ -d "$dir" && -w "$dir" ]] ## not a dir or not writable
   then echo $dir not a writable directory
   echo usage: $0 directory; exit 1
